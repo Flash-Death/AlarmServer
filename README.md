@@ -14,7 +14,7 @@ Description
 
 This Server was designed to run in conjunction with the WeatherAlarm App v2.  It takes in a url parameter called location that is a zip code (ie ?location=24060).  Without the argument the server will print out No Location in json format.
 
-It then spawns two thread to request the current weather at that location from weather.com and weather.gov. The Server parses the html pages for the relevant information and displays it in json format which is sent back to the app.  
+It then spawns two threads to request the current weather at that location from weather.com and weather.gov. The Server parses the html pages for the relevant information and displays it in json format which is sent back to the app.  
 
 
 License
